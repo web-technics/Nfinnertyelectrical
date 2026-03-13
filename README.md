@@ -31,3 +31,13 @@ Date: 2026-03-13
 4. Verify backup integrity by downloading and opening the latest backup archive.
 5. Confirm GitHub backup is up to date (`git status`, `git push`).
 6. Test homepage, contact form, and key service pages after updates.
+
+### Emergency Contacts / Access
+
+- Hosting panel: StackCP account (owner: _fill in_)
+- Domain registrar: _fill in provider and login URL_
+- GitHub repository: https://github.com/web-technics/Nfinnertyelectrical
+- FTP host: ftp.nfinnertyelectrical.com
+- WP admin URL: https://nfinnertyelectrical.com/wp-admin
+
+Do not store passwords or API keys in this repository. Keep secrets in your password manager.

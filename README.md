@@ -14,3 +14,11 @@ Date: 2026-03-13
 ### Deployment note
 
 `wp-config.php` is intentionally excluded from Git and must be deployed via FTP when changed.
+
+### Recovery Steps
+
+1. Clone this repository backup and check out the latest stable commit.
+2. Upload tracked site files from this repo to the server via FTP.
+3. Upload `wp-config.php` separately via FTP (it is not stored in Git).
+4. Verify `.htaccess` includes the `xmlrpc.php` block.
+5. Log in to wp-admin and clear any plugin/theme cache.

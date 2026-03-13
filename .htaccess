@@ -1,7 +1,7 @@
 
-<Files "xmlrpc.php">
-Require all denied
-</Files>
+<IfModule mod_rewrite.c>
+RewriteRule ^xmlrpc\.php$ - [F,L]
+</IfModule>
 
 # BEGIN WordPress
 # The directives (lines) between "BEGIN WordPress" and "END WordPress" are

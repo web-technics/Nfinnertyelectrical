@@ -22,3 +22,12 @@ Date: 2026-03-13
 3. Upload `wp-config.php` separately via FTP (it is not stored in Git).
 4. Verify `.htaccess` includes the `xmlrpc.php` block.
 5. Log in to wp-admin and clear any plugin/theme cache.
+
+### Monthly Maintenance Checklist
+
+1. Update WordPress core to latest stable version.
+2. Update active theme (Divi) and all plugins.
+3. Review Wordfence/hosting logs for unusual login or file activity.
+4. Verify backup integrity by downloading and opening the latest backup archive.
+5. Confirm GitHub backup is up to date (`git status`, `git push`).
+6. Test homepage, contact form, and key service pages after updates.

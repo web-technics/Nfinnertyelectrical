@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+
+# WordPress secrets and local config
+wp-config.php
+
+# Runtime / cache / backups
+wp-content/cache/
+wp-content/upgrade/
+wp-content/ai1wm-backups/
+wp-content/et-cache/
+wp-content/backups/
+
+# User-generated media (often very large)
+wp-content/uploads/
+
+# Logs and temp
+*.log
+error_log
+*.tmp
+
+# Node/composer artifacts if present in theme/plugin work
+node_modules/
+vendor/
